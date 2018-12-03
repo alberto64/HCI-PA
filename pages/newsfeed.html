@@ -1,0 +1,31 @@
+
+
+<div ng-cloak style="align-content: top; text-align: left;right: 0;
+top: 0;">
+    <!-- Here come the messages in the chat, each one presented in card -->
+    <center><div class="card yellow darken-2" style="width: 100%; height:22%; align-content: center;position: fixed;right: 0;
+top: 0;">
+        <a class="btn waves-effect waves-light purple" style="font-size: 20px; height:22%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToTherapy()"><i class="material-icons">pets</i>Pet Therapy</a>
+        <a class="btn waves-effect waves-light green" style="font-size: 20px; height:22%; color:white; aling-content: center; border: none; margin: 5px; padding: 0" ng-click="goToSetting()"><i class="material-icons">settings</i>Profile Settings</a>
+        <a class="btn waves-effect waves-light blue" style="font-size: 20px; height:22%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToChatList()"><i class="material-icons">question_answer</i>Chat Groups</a>
+        <a class="btn waves-effect waves-light red" style="font-size: 20px; height:22%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="logOut()"><i class="material-icons">cancel</i>    Sign Out</a>
+    </div></center>
+
+
+</div>
+
+<div ng-repeat="m in mainCtrl.chatList" style="z-index:-1; position: relative; align-content: center">
+    <!-- This card prodives space for the message and Like/dislike buttons -->
+    <div class="row">
+        <div class="col s12 m6">
+            <p class="card">
+                <p class="card-content">
+                    <!-- Card Title is the person who write the message -->
+            <span class="card-title">  <h3>{{m.cName}}</h3>     </span> Created On: {{m.cTime}}
+                    <img style="width: 100%" src="{{m.url}}" alt="image">
+
+                <div>{{m.text}}</div>
+                </p>
+        </div>
+    </div>
+</div>
