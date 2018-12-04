@@ -6,6 +6,9 @@ angular.module('AppChat').controller('newsController', ['$http', '$log', '$scope
         $scope.chatForm = {};
         $scope.isGroupChat = 't';
         $scope.groupLabel = "YES";
+        $scope.loginForm = {};
+
+
 
         $scope.goToChatList = function(){
 
@@ -56,15 +59,12 @@ angular.module('AppChat').controller('newsController', ['$http', '$log', '$scope
             $location.path("/chat/" + cid + "/" + $routeParams.uid);
         };
 
-        $scope.group = function(text) {
-            if(text == 'YES') {
-                $scope.isGroupChat = 't';
-                $scope.groupLabel = text;
-            }
-            else {
-                $scope.isGroupChat = 'f'; 
-                $scope.groupLabel = text;
-            }
+        $scope.post = function() {
+            var form = $scope.loginForm
+
+            // $scope.mainCtrl.chatList = [{"cID": 1, "cName" : "Guest", "cTime" : Date.now(),"url": form.url,  "text": form.text}].push($scope.mainCtrl.chatList);
+            console.log($scope.mainCtrl.chatList);
+            alert("Feature disabled by admin, please contact: alberto.dejesus@upr.edu");
         }
 
         $scope.create = function(){

@@ -3,8 +3,15 @@
 <div ng-cloak style="align-content: top; text-align: left;right: 0;
 top: 0;">
     <!-- Here come the messages in the chat, each one presented in card -->
-    <center><div class="card yellow darken-2" style="width: 100%; height:22%; align-content: center;position: fixed;right: 0;
+    <center><div class="card yellow darken-2" style="width: 100%; height:25%; align-content: center;position: fixed;right: 0;
 top: 0;">
+        <form  ng-submit="post()">
+           <strong>Post: </strong>
+            <input type="text" placeholder="Text" name='username' ng-model="loginForm.text" required style="text-align: center; background-color: white; position: relative; width:30%; height:20%">
+            <input type="url" placeholder="https://example.com" name='username' ng-model="loginForm.url" required style="text-align: center; background-color: white; position: relative; width:30%; height:20%">
+            <input class="small-btn blue darken-1" type="submit" value="Post" style="border-radius: 10px">
+
+        </form>
         <a class="btn waves-effect waves-light purple" style="font-size: 20px; height:22%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToTherapy()"><i class="material-icons">pets</i>Pet Therapy</a>
         <a class="btn waves-effect waves-light green" style="font-size: 20px; height:22%; color:white; aling-content: center; border: none; margin: 5px; padding: 0" ng-click="goToSetting()"><i class="material-icons">settings</i>Profile Settings</a>
         <a class="btn waves-effect waves-light blue" style="font-size: 20px; height:22%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToChatList()"><i class="material-icons">question_answer</i>Chat Groups</a>
@@ -14,7 +21,7 @@ top: 0;">
 
 </div>
 
-<div ng-repeat="m in mainCtrl.chatList" style="z-index:-1; position: relative; align-content: center">
+<div ng-repeat="m in mainCtrl.chatList" style="top: 100; z-index:-1; position: relative; align-content: center">
     <!-- This card prodives space for the message and Like/dislike buttons -->
     <div class="row">
         <div class="col s12 m6">

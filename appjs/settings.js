@@ -6,9 +6,8 @@ angular.module('AppChat').controller('settingsController', ['$http', '$log', '$s
 
 
         console.log("Got inside the js")
-        $scope.login = function(){
-            var form = $scope.loginForm
-
+        $scope.save = function(){
+            alert("Saving Function Deactivated: If active the page would have refresh and give a save notification");
 
         };
 
