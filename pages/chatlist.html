@@ -1,5 +1,6 @@
 
-<h1>Chats Available:</h1>
+
+<br><br><br><br><br><br><br><br><br><br><br>
 <div ng-repeat="m in mainCtrl.chatList" style="align-content: top; text-align: left;right: 0;
 top: 0;">
     <!-- This card prodives space for the message and Like/dislike buttons -->
@@ -13,7 +14,7 @@ top: 0;">
                     </p>
                 </div>
                 <div class="card-action">
-                    <button class="btn waves-effect waves-light " style="font-size: 25px" type="submit" name="action" ng-click="goToChat(m.cID)">Enter
+                    <button class="btn waves-effect waves-light blue darken-1" style="font-size: 17px" type="submit" name="action" ng-click="goToChat(m.cID)">Enter
                         <i class="material-icons prefix">send</i>
                     </button>
                 </div>
@@ -24,17 +25,18 @@ top: 0;">
 
 <div ng-cloak style="align-content: center; text-align: left">
     <!-- Here come the messages in the chat, each one presented in card -->
-    <center><div class="card yellow darken-2" style="width: 100%; height:35%; align-content: center;position: fixed;right: 0;
+    <center><div class="card yellow darken-2" style="z-index:3; width: 100%; height:35%; align-content: center;position: fixed;right: 0;
 top: 0;">
+        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; color:white; height:30px; margin: 4px" ng-click="goToContacts()">Manage Contacts</a>
+        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; color:white; align-content: center; height:30px; margin: 4px" ng-click="goToFeed()">Go Back</a>
         <div class="card-content" style="padding:2px">
             <span class="card-title"><h4>Create Chat</h4></span>
             <form ng-submit="create()">
                 <input type="text" placeholder="Chat Name" name='chat' ng-model="chatForm.cname" required style="text-align: center; background-color: white; color: darkgray; height:30px">
-                <input class="btn waves-effect waves-light blue darken-2" type="submit" style="width:100%; font-size:20px; height: 30px; color:white" value="Create Chat">
+                <input class="btn waves-effect waves-light blue darken-1" type="submit" style="width: 98%; font-size:17px; align-content:center; height: 30px; color:white; margin:4px" value="Create Chat">
             </form>
         </div>
-        <a class="btn waves-effect waves-light green" style="font-size: 20px; color:white; height:30px; margin: 4px" ng-click="goToContacts()"><i class="material-icons">account_box</i>    Add Contact</a>
-        <a class="btn waves-effect waves-light red" style="font-size: 20px; color:white; align-content: center; height:30px; margin: 4px" ng-click="goToFeed()"><i class="material-icons">backspace</i>    Go Back</a>
+
     </div></center>
 
 

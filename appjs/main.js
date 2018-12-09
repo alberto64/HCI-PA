@@ -7,6 +7,10 @@
             templateUrl: 'pages/login.html',
             controller: 'LoginController',
             controllerAs : 'loginForm'
+        }).when('/signup', {
+            templateUrl: 'pages/signup.html',
+            controller: 'SignupController',
+            controllerAs : 'signupForm'
         }).when('/chat/:cid/:uid', {
             templateUrl: 'pages/chat.html',
             controller: 'ChatController',

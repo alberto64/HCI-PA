@@ -27,10 +27,9 @@ angular.module('AppChat').controller('LoginController', ['$http', '$log', '$scop
             }
         };
 
-        $scope.signup = function(){
-            var form = $scope.loginForm
-            console.log("Got inside the function")
-
-            alert("Sign Up Currently Disabled, use username:\'guest\' password: \'1234\',\n please contact administrator for more information: alberto.dejesus@upr.edu")
+        $scope.goToSignup = function(){
+             $location.path("/signup");
+             console.log($location);
         };
+
 }]);

@@ -3,18 +3,29 @@ angular.module('AppChat').controller('contactsController', ['$http', '$log', '$s
         var thisCtrl = this;
 
         $scope.contCtrl = {};
+        $scope.action = "Add";
         console.log("Got to contacts!")
 
         $scope.loadUsers = function(){
                     console.log("Got to load!")
+                    $scope.action = "Add";
+                    $scope.contCtrl.userList = [{"fName": "Test", "pseudonym": "Testy",  "lName" : "User"}];
+        };
 
+        $scope.loadContacts = function(){
+                    console.log("Got to load!")
+                    $scope.action = "Remove";
                     $scope.contCtrl.userList = [{"fName": "Test", "pseudonym": "Testy",  "lName" : "User"}];
         };
 
         $scope.addContact = function(contact){
                     //var url = "http://quacker-pr.herokuapp.com/participants";
-                    alert("User Added to Contacts");
+                    if($scope.action.equals("Add")) {
+                        alert("User Added to Contacts");
+                    } else {
+                        alert("User Deleted from Contacts");
 
+                    }
 
         };
 
