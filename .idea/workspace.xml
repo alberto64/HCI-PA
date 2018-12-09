@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9c32ef8-98fb-41f1-9bb5-41297047d59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appjs/signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appjs/contactsAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/appjs/contactsAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appjs/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/appjs/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appjs/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/appjs/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chatlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chatlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contactsAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contactsAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/newsfeed.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/newsfeed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/participantsAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/participantsAdd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/therapy.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/therapy.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +32,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="53" />
+          <entry key="html" value="54" />
           <entry key="js" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="52" />
+          <entry key="HTML" value="53" />
           <entry key="JavaScript" value="24" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -116,6 +102,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/settings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#11;n#form#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/participantsAdd.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/chat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="270">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -210,7 +212,6 @@
         <option value="$PROJECT_DIR$/appjs/signup.js" />
         <option value="$PROJECT_DIR$/appjs/main.js" />
         <option value="$PROJECT_DIR$/appjs/login.js" />
-        <option value="$PROJECT_DIR$/pages/settings.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/login.html" />
         <option value="$PROJECT_DIR$/pages/signup.html" />
@@ -221,6 +222,7 @@
         <option value="$PROJECT_DIR$/pages/participantsAdd.html" />
         <option value="$PROJECT_DIR$/pages/contactsAdd.html" />
         <option value="$PROJECT_DIR$/pages/chat.html" />
+        <option value="$PROJECT_DIR$/pages/settings.html" />
       </list>
     </option>
   </component>
@@ -465,20 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#11;n#form#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/contactsAdd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -533,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="270">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -545,6 +533,20 @@
             <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#button#1;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#2;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#11;n#form#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
