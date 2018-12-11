@@ -1,38 +1,38 @@
-<div ng-cloak style="align-content: center; text-align: center">
-            <center><div class="card yellow darken-2" style="width: 90%; align-content: center">
+<div ng-cloak>
+            <center><div class="card yellow darken-2" style="width: 90%">
                 <div class="card-content">
-                    <span class="card-title"><h1>Settings</h1></span>
+                    <span class="card-title"><h1 style="margin:0">Settings</h1></span>
                     <form ng-submit="save()">
-                        <h5 style="align-content: center">Username:</h5><br>
-                        <input type="text" value="Guest" name='username'  required style="color: darkgray; text-align: center; background-color: white";><br>
+                        <h5 style="float:left; margin:0">Username:</h5>
+                        <input type="text" value="Guest" name='username' required style="float:right; margin:0; margin-top:4px;width:50%; height:35%; color: darkgray; text-align: center; background-color: white"><br><br>
 
-                        <h5 style="align-content: center">Password:</h5><br>
-                        <input type="password" placeholder="Password" value="password" name="password" required style="text-align: center; background-color: white ; color: darkgray"><br>
+                        <h5 style="float:left; margin:0">Password:</h5>
+                        <input type="password" placeholder="Password" value="password" name="password" required style="float:right; margin:0; margin-top:4px;width:50%; height:35%; color: darkgray; text-align: center; background-color: white"><br><br>
 
-                        <h5 style="align-content: center">Email:</h5><br>
-                        <input type="text" placeholder="Email" name='email' value="gusty.guest@mail.com" required style="text-align: center; background-color: white ; color: darkgray"><br>
+                        <h5 style="float:left; margin:0">Email:</h5>
+                        <input type="text" placeholder="Email" name='email' value="gusty.guest@mail.com" required style="float:right; margin:0; margin-top:3px;width:70%; height:35%; color: darkgray; text-align: center; background-color: white"><br><br>
 
-                        <h5 style="align-content: center">Phone Number:</h5><br>
-                        <input type="text" placeholder="Phone Number" name="phone" value="7877877788" required style="text-align: center; background-color: white; color: darkgray"><br>
+                        <h5 style="float:left; margin:0">Cell Number:</h5>
+                        <input type="text" placeholder="Cell Number" name="phone" value="7877877788" required style="float:right; margin:0; margin-top:3px;width:50%; height:35%; color: darkgray; text-align: center; background-color: white"><br><br>
 
-                        <h5 style="align-content: center">First Name:</h5><br>
-                        <input type="text" placeholder="First Name" name="fname" value="Guest"  required style="text-align: center; background-color: white; color: darkgray"><br>
+                        <h5 style="float:left; margin:0">First Name:</h5>
+                        <input type="text" placeholder="First Name" name="fname" value="Guest"  required style="float:right; margin:0; margin-top:5px;width:50%; height:35%; color: darkgray; text-align: center; background-color: white"><br><br>
 
-                        <h5 style="align-content: center">Last Name:</h5><br>
-                        <input type="text" placeholder="Last Name" name='lname' value="Guesty" required style="text-align: center; background-color: white; color: darkgray"><br>
+                        <h5 style="float:left; margin:0">Last Name:</h5>
+                        <input type="text" placeholder="Last Name" name='lname' value="Guesty" required style="float:right; margin:0; margin-top:5px;width:50%; height:35%; color: darkgray; text-align: center; background-color: white"><br><br>
 
-                        <h5 style="align-content: center">Category Preferences:</h5><br>
-                        <input type="checkbox" style="opacity: 100" name="pet" value="Dog" checked>     Dog<br>
-                        <input type="checkbox" style="opacity: 100" name="pet" value="Cat" checked>     Cat<br>
-                        <input type="checkbox" style="opacity: 100" name="pet" value="Horse">     Horse<br>
-                        <input type="checkbox" style="opacity: 100" name="pet" value="Bunny">     Bunny<br>
-                        <input type="checkbox" style="opacity: 100" name="pet" value="Dolphin">     Dolphins<br>
-                        <br>
+                        <h5 style="float:center; margin:0">Category Preferences:</h5>
+                        <input type="checkbox" style="opacity: 0" name="pet" value="Dog" checked><span>Dog</span><br>
+                        <input type="checkbox" style="opacity: 0" name="pet" value="Cat" checked><span>Cat</span><br>
+                        <input type="checkbox" style="opacity: 0" name="pet" value="Horse"><span>Horse</span><br>
+                        <input type="checkbox" style="opacity: 0" name="pet" value="Bunny"><span>Bunny</span><br>
+                        <input type="checkbox" style="opacity: 0" name="pet" id="pet5" value="Dolphin"><span>Dolphin</span><br>
+
 
                         <input class="btn blue darken-1" type="submit" value="Post" style="padding:0;padding-left:10px; padding-right:10px; height:8%; margin-top:2px; font-size:17px">
                         <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:22%; color:white; align-content: center; border: none;padding: 0; padding-left:10px; padding-right:10px; margin: 5px;font-size:15px" ng-click="gotToNews()">Cancel</a>
                     </form>
-                    <br>
+
                     <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:22%; color:white; align-content: center; border: none;padding: 0;padding-left:10px; padding-right:10px;  margin: 5px;font-size:15px" href="https://github.com/alberto64/HCI-PA/blob/master/User%20Manual.pdf">Help</a>
                 </div>
             </div></center>

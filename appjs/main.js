@@ -51,6 +51,10 @@
             templateUrl: 'pages/settings.html',
             controller: 'settingsController',
             controllerAs : 'settingsCtrl'
+        }).when('/post/:uid', {
+            templateUrl: 'pages/post.html',
+            controller: 'postController',
+            controllerAs : 'postCtrl'
         }).otherwise({
             redirectTo: '/login'
         });

@@ -83,6 +83,12 @@ angular.module('AppChat').controller('newsController', ['$http', '$log', '$scope
 
         };
 
+        $scope.goToPost = function(){
+                alert("UGH");
+                $location.path("/post/" + $routeParams.uid);
+                console.log($location);
+        };
+
         console.log("Got inside the second js")
 
         $scope.loadChats($routeParams.uid);

@@ -1,21 +1,14 @@
 
 
-<div ng-cloak style="align-content: top; text-align: left;right: 0;
-top: 0;">
+<div ng-cloakstyle="align-content: top; text-align: left;right: 0; top: 0;">
     <!-- Here come the messages in the chat, each one presented in card -->
-    <center><div class="card yellow darken-2" style="width: 100%; height:35%; align-content: center;position: fixed;right: 0;
+    <center><div id="menu" class="card yellow darken-2" style="width: 100%; height:35%; align-content: center;position: fixed;right: 0;
 top: 0;">
-        <form  ng-submit="post()">
-           <strong>Post: </strong>
-            <input type="text" placeholder="Text" name='username' ng-model="loginForm.text" required style="text-align: center; background-color: white; position: relative; width:30%; height:20%">
-            <input type="url" placeholder="Image URL" name='username' ng-model="loginForm.url" required style="text-align: center; background-color: white; position: relative; width:30%; height:20%">
-            <input class="btn blue darken-1" type="submit" value="Post" style="padding:0;padding-left:10px; padding-right:10px; height:8%; margin-top:2px; font-size:17px">
-
-        </form>
-        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToTherapy()"><i class="material-icons">pets</i>Pet Therapy</a>
-        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; aling-content: center; border: none; margin: 5px; padding: 0" ng-click="goToSetting()"><i class="material-icons">settings</i>Profile Settings</a>
-        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToChatList()"><i class="material-icons">question_answer</i>Chat Groups</a>
-        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="logOut()"><i class="material-icons">cancel</i>    Sign Out</a>
+        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToTherapy()">Pet Therapy</a>
+        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToPost()">Post</a>
+        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; aling-content: center; border: none; margin: 5px; padding: 0" ng-click="goToSetting()">Profile Settings</a>
+        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="goToChatList()">Chat Groups</a>
+        <a class="btn waves-effect waves-light blue darken-1" style="font-size: 17px; height:18%; color:white; align-content: center; border: none; margin: 5px; padding: 0" ng-click="logOut()">Sign Out</a>
     </div></center>
 
 
